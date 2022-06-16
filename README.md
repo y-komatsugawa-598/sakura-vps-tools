@@ -17,7 +17,7 @@
 
 1. DebianLiveCD(standerd)をさくらのVPSで起動します
 2. スクリプト冒頭の `### Network configuration` の 部分を手動で打鍵します(ネットワークによるスクリプト取得が可能になる前なので)
-3. wget/curl 等でこのスクリプトをダウンロードします
+3. wget/curl で `https://raw.githubusercontent.com/y-komatsugawa-598/sakura-vps-tools/master/initialize_live_debian.sh` (このスクリプト)をダウンロードします
 4. ダウンロードしたスクリプトの `{ description }` の部分を自身の環境に合わせて書き換えrootのシェルで実行します
 5. スクリプトで設定した公開鍵でログイン可能になっているはずなのでSSHログインしてメンテナンス作業を行います
 6. `apt` でのパッケージインストールも可能です
